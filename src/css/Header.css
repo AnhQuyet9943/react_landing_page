@@ -1,0 +1,60 @@
+.header {
+  height: 600px;
+  width: 100%;
+  padding: 30px 0 30px;
+  margin-top: 0px;
+  background-image: url("https://scontent.fhan5-2.fna.fbcdn.net/v/t1.15752-9/121486413_2682006155372548_8002921010923617576_n.jpg?_nc_cat=102&_nc_sid=ae9488&_nc_ohc=_Jt4i_pmgw4AX_gZLa_&_nc_ht=scontent.fhan5-2.fna&oh=9269f1fcdbde0ed3defaa0636c0d160b&oe=5FAFD9ED");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.header img {
+  height: 350px;
+  width: 450px;
+  margin: 70px 0 0 40px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.header h1,
+.header p,
+.header button {
+  margin-top: 20px;
+}
+
+.header .btn {
+  border-radius: 0;
+  margin: 40px 20px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 30px;
+    height: 750px;
+  }
+
+  .header img {
+    width: 90%;
+    height: 300px;
+    margin: 20px 0 0 20px;
+  }
+
+  .header .btn {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .header p {
+    font-size: 10px;
+  }
+}
